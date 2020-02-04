@@ -1,5 +1,5 @@
 # audio_embedding_segmentation
-Extracting audio embeddings based on a gated CNN trained using Audioset. A change point detection algorithm based on embeddings.
+Extracting audio embeddings based on a gated CNN trained using Audioset. The change point detection is performed based on the extracted embeddings.
 
 Two example audio files are given to test.
 
