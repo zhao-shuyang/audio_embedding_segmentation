@@ -1,7 +1,12 @@
 # audio_embedding_segmentation
-Extracting audio embeddings based on a gated CNN trained using Audioset. The change point detection is performed based on the extracted embeddings.
+This repository performs audio embedding extraction and change point detection. It has following function:
 
-Two example audio files are given to test.
+- Extracting audio embeddings based on a gated CNN trained using Audioset. The embeddings are extracted per frame of log-Mel spectrogram.
+
+- Change point detection is performed based on the extracted embeddings.
+
+- Plotting log-Mel spectrogram, embeddings with detected change points.
+
 
 An example plot is as below:
 
